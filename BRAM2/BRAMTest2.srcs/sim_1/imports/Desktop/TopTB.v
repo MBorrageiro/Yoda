@@ -24,19 +24,23 @@ module test_new();
 reg clk;
 reg [31:0] n;
 reg [31:0] seed;
+reg [9:0] startAddr;
 //integer tic;
 //integer toc;
 wire done;
 wire busy;
+wire [31:0] CheckA;
+wire [31:0] CheckB;
 
-for_loop uut(clk,seed,n,done,busy);
+for_loop uut(clk,seed,n,startAddr,done,busy,CheckA,CheckB);
 
     initial begin
 //        #50;
         clk = 1;
-        n = 100;
-        seed = 32'b11001100011010001110011010011110;
-        $display("kerman");
+        n = 4;
+        seed = 32'b1;//11001100011010001110011010011110;
+        startAddr = 10'b00001111;
+//        $display("kerman");
     end
 
     always begin
