@@ -18,3 +18,6 @@ PRNG Wr Re and Reset Modules Only
 
 PRNG Wr to BRAM Module Only
 - contains only the .v files for the stress tested version
+
+YODA_RNG cpp file
+- contains the .cpp file for the Golden Measure. 
