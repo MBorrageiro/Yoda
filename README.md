@@ -1,4 +1,4 @@
-#YODA
+# YODA
 
 YODA PRNG project Verilog code and final report YODA (Your Own Digital Accelerator) 
 This project is run each year in the high performance embedded systems final year course. 
