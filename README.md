@@ -1,6 +1,6 @@
 # YODA
 
-## YODA PRNG Project Verilog Code and Final Report 
+#### YODA PRNG Project Verilog Code and Final Report 
 YODA (Your Own Digital Accelerator) 
 This project is run each year in the high performance embedded systems final year course. 
 It sees students put into groups to develop a digital accelerator on the parallel Field Programmable Gate Array (FPGA).
